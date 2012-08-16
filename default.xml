@@ -332,7 +332,9 @@
 <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" />
 <project path="packages/apps/RomUpdater" name="CyanogenDefy/RomUpdater" />
 
-<project path="vendor/motorola" name="CyanogenDefy/proprietary_vendor_motorola" />
+<!-- <project path="vendor/motorola" name="CyanogenDefy/proprietary_vendor_motorola" /> -->
+<!-- Use our moto vendor folder and rebase it -->
+<project path="vendor/motorola" name="CM10-omap3/proprietary_vendor_motorola" remote="private" revision="cm9" />
 <project path="device/moto/jordan-common" name="tpruvot/android_device_moto_jordan-common" />
 <project path="device/moto/mb525" name="tpruvot/android_device_moto_mb525" />
 <project path="device/moto/mb526" name="tpruvot/android_device_moto_mb526" />
