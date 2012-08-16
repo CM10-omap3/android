@@ -342,8 +342,8 @@
 <project path="device/moto/kobe" name="CyanogenKobe/android_device_moto_mb520" />
 
 <project path="device/motorola/droid2" name="CM10-omap3/android_device_motorola_droid2" remote="private" revision="jb" />
-<project path="device/motorola/droid2we" name="CM10-omap3/android_device_motorola_droid2we" remote="private" revision="jb" />
-<project path="device/motorola/omap34com" name="CM10-omap3/android_device_motorola_omap34com" remote="private" revision="jb" />
+<project path="device/moto/droid2we" name="CM10-omap3/android_device_motorola_droid2we" remote="private" revision="jb" />
+<project path="device/moto/omap36com" name="CM10-omap3/android_device_motorola_omap36com" remote="private" revision="jb" />
 <project path="device/motorola/shadow" name="CM10-omap3/android_device_motorola_shadow" remote="private" revision="jb" />
 <project path="device/motorola/venus2" name="CM10-omap3/android_device_motorola_venus2" remote="private" revision="master" />
 
