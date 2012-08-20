@@ -341,10 +341,8 @@
 <!-- Use our moto vendor folder and rebase it -->
   <project path="vendor/motorola" name="CM10-omap3/proprietary_vendor_motorola" remote="private" revision="cm9" />
 
-<!-- Let's redo this whole thing
-  <project path="device/moto/droid2we" name="CM10-omap3/android_device_motorola_droid2we" remote="private" revision="jb" />
-  <project path="device/moto/omap36com" name="CM10-omap3/android_device_motorola_omap36com" remote="private" revision="jb" />
--->
+  <project path="device/moto/droid2we" name="CM10-omap3/android_device_moto_droid2we" remote="private" revision="master" />
+  <project path="device/moto/omap36com" name="CM10-omap3/android_device_moto_omap36com" remote="private" revision="master" />
 
 <!-- Hold these back until d2g boots
   <project path="device/motorola/shadow" name="CM10-omap3/android_device_motorola_shadow" remote="private" revision="jb" />
